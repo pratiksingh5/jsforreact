@@ -9,8 +9,14 @@ function sum(x,y){
   return x+y
 }
 
-let arrowSum = (x,y) => {
-    return x + y;
-}
+// let arrowSum = (x,y) => {
+//     return x + y;
+// }
 
+
+let arrowSum = (x,y) =>{
+  return x + y
+};
+
+console.log(arrowSum(1,3))
 

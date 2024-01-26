@@ -1,0 +1,27 @@
+Question 1:
+
+// Declare a variable using let with block scope and reassign its value inside a block
+{
+  let x = 5;
+  console.log(x); 
+}
+// Try to access x outside the block
+console.log(x); // What will be the output and why?
+
+Question 2:
+
+// Declare a variable using var and try to access it before declaration
+console.log(y); // What will be the output and why?
+var y = 10;
+
+Question 3:
+
+// Declare a variable using var inside a function and try to access it outside the function
+function exampleFunction() {
+  var a = 20;
+}
+// Try to access a outside the function
+console.log(a); // What will be the output and why?
+
+
+
