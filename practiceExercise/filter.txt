@@ -6,9 +6,13 @@ const students = [
   { name: 'Charlie', age: 27, grade: 'C' },
   { name: 'David', age: 20, grade: 'A' },
 ];
+
 Filter the students array to get only the students who are 25 years or older.
+
 Create an array of students who have an 'A' grade in the students array
+
 Create an array of names from the students array that have less than 6 characters.
+
 Filter the students array to get only the students who have a grade of 'B'.
 
 const fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry'];

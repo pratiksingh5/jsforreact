@@ -1,0 +1,10 @@
+Questions for setInterval:
+
+Incremental Counter:
+Write a program that uses setInterval to increment a counter by 1 every second. Log the current value of the counter to the console.
+
+Changing Content:
+Create a webpage with a paragraph element. Use setInterval to change the content of the paragraph every 3 seconds. For example, cycle through different quotes or messages.
+
+Dynamic Clock:
+Implement a dynamic digital clock using setInterval. Display the current time, updating every second, in a format like "hh:mm:ss".

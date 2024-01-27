@@ -1,6 +1,5 @@
 // Hoisting 
 
-
 // Behavior of JS to declare variable to the top 
 // Declaration 
 
@@ -45,7 +44,6 @@
 // let hi = function hello(){
 //     console.log("Hello ")
 // }
-
 
 
 // b()

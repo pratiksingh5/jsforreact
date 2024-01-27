@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0; padding: 0; box-sizing: border-box; font-family: 'Gilroy';
+        }
+        h1{
+
+            text-align: center;
+        }
+
+        #table{
+            height: 300px;
+            width: 100%;
+            background-color: yellow;
+            padding: 10px
+        }
+        .row{
+            width: 100%;
+            height: 120px;
+            background-color: orange;
+            margin-top: 10px;
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+        }
+        .column{
+            width: 300px;
+            height: 100%;
+            background-color: aqua;
+        }
+    </style>
+    <h1>Table</h1>
+
+    <div id="table">
+       <div class="row">
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+
+       </div>
+       <div class="row"></div>
+
+    </div>
+
+    <script>
+        let table = document.querySelector("#table")
+        let row = document.querySelector(".row")
+        let column = document.querySelector(".column")
+
+        table.addEventListener('click',(e)=> {
+            
+            console.log("table pe click hua")
+        }, true)
+
+        row.addEventListener('click',()=> {
+            console.log("row pe click hua");
+            // row.style.backgroundColor = "green"
+        }, true)
+
+        column.addEventListener('click',(e)=> {
+            // e.stopPropagation();
+            console.log("column pe click hua")
+        }, true)
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,8 @@
+Delayed Greeting:
+Write a program that uses setTimeout to display a greeting message after 5 seconds.
+
+Delayed Animation:
+Create a simple animation using HTML and CSS. Use setTimeout to delay the start of the animation by 2 seconds.
+
+Recursive Countdown:
+Implement a countdown timer that starts from 10 and decrements by 1 every second using setTimeout. Log the countdown values to the console.

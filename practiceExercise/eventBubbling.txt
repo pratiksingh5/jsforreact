@@ -1,0 +1,2 @@
+Stop Bubbling:
+Write a program that demonstrates stopping event propagation. Create a button inside a container, and add click event listeners to both the button and the container. When the button is clicked, prevent the event from bubbling up to the container, and log a message only from the button click event.
