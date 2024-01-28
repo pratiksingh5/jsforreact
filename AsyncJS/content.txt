@@ -1,0 +1,17 @@
+JS as language
+JS is a synchronous language. Par hum JS me async functionality use kr skte hai 
+
+Sync Vs Async
+When to use sync and async
+
+async 
+Threading //
+callbacks
+Promise
+then and catch
+async await
+
+Event Loop
+Main context
+Call stack
+Web API
